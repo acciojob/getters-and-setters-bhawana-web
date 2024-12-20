@@ -45,19 +45,3 @@ class Teacher extends Person {
   }
 }
 
-// Example usage:
-
-// Create an instance of Person
-const person = new Person("John", 25);
-console.log(person.name);  // Output: John
-
-person.age = 30;  // Setting the age using setter
-console.log(person.age);  // Output: 30
-
-// Create an instance of Student
-const student = new Student("Alice", 22);
-student.study();  // Output: Alice is studying
-
-// Create an instance of Teacher
-const teacher = new Teacher("Bob", 40);
-teacher.teach();  // Output: Bob is teaching
