@@ -1,5 +1,4 @@
 //complete this code
-// Person class
 class Person {
   constructor(name, age) {
     this._name = name;  // Private variable to store name
