@@ -29,7 +29,7 @@ class Student extends Person {
 
   // Method to log that the student is studying
   study() {
-    console.log(${this.name} is studying);
+    console.log(`${this.name} is studying`);
   }
 }
 
@@ -41,7 +41,7 @@ class Teacher extends Person {
 
   // Method to log that the teacher is teaching
   teach() {
-    console.log(${this.name} is teaching);
+    console.log(`${this.name} is teaching`);
   }
 }
 
